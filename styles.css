@@ -1,1 +1,116 @@
-/* Write your CSS here! */
+body {
+    background-color: #2C3639;
+    margin: 8px;
+    display: block;
+}
+
+footer {
+    font-family: 'Montserrat';
+    font-weight: 100;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: #A27B5C;
+}
+
+/* Header */
+
+#mainHeading {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#title {
+    color: #DCD7C9;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 5rem;
+    text-align: center;
+}
+
+#topTen ol {
+    list-style-type: none;
+    text-align: center;
+}
+
+.birdList {
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    color: #A27B5C;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+#headerParagraph {
+    text-align: center;
+    color: #DCD7C9;
+    padding-left: 150px;
+    padding-right: 150px;
+    line-height: 2rem;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+/* Containers */
+
+.bird-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+}
+
+.bird-block {
+    display: inline-block;
+}
+
+/* Pictures */
+
+.leftPicture {
+    float: left;
+    margin-right: 40px;
+}
+
+.rightPicture {
+    float: right;
+    margin-left: 40px;
+    margin-right: 25px;
+}
+
+/* H2s and Paragraphs */
+
+.leftPictureH2 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    display: inline-block;
+    color: #A27B5C;
+    margin-top: 10px;
+}
+
+.rightPictureH2 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    display: inline-block;
+    color: #A27B5C;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.birdParagraphs {
+    font-family: 'Montserrat';
+    line-height: 2rem;
+    color: #DCD7C9;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+/* Hover Images */
+
+#ExtraPics {
+    display: none
+}
+
+span:hover+#ExtraPics {
+    display: flex;
+}
